@@ -6,20 +6,12 @@
         <title>Hello World</title>
     </head>
     <body>
-        <?php echo "Hello World"; ?>
-        <?php echo "<p>Hello World !!</p>"; ?>
-        <p>Hello World</p>
         <?php
             $name = "John";
-            $surname = "Doe";
             $age = 32;
-            echo "I" . " am" . " using" . " concatenation.<br>";
-            $sentence = "My name is " . $name . " " . 
-            $surname . ", and I am " . $age . " years
-            old.<br>";
-            echo $sentence;
-            echo gettype($age) . "<br>";
-            echo gettype($sentence);
+            $job_title = "Database analyst";
+            echo "Hi, my name is " . $name . ", and I am " . $age .
+            ", and I work as a " .  $job_title;
         ?>
     </body>
 </html>
